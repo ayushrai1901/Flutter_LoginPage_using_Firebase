@@ -22,6 +22,11 @@ class MyApp extends StatelessWidget {
 
 Step 1: create main layout of the  app(only UI)
 
+Step 2: login to your firebase consle.
+Step 3: create a new firebase project
+Step 4 : Lets add the firbase Depenedecide for flutter
+
+
 */
 class HomePage extends StatefulWidget{
   const HomePage({Key ? key}) : super(key: key);
@@ -110,7 +115,11 @@ class _LoginScreenState extends State<LoginScreen>{
                   borderRadius: BorderRadius.circular(12.0)
               ),
               onPressed:() {},
-            child: Text("Login"),),
+            child: Text("Login" ,
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 10.0,
+            ),),),
           ),
         ],
       ),
